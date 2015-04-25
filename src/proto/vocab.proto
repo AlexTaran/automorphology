@@ -1,0 +1,10 @@
+package alextaran;
+
+message Vocabulary {
+  message Entry {
+    required string word = 1;
+    required int32 count = 2;
+  }
+
+  repeated Entry entries = 1;
+}
